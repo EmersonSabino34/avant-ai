@@ -20,7 +20,7 @@ export default function Login() {
       setTextEmail("block")
       setBtnEntrar("bg-red-600")
       setContainer("bg-red-400")
-      alert("Por favor preencher o E-mail")
+      alert("Please fill in the E-mail")
       return 
     }
 
