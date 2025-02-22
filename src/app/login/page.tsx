@@ -44,7 +44,7 @@ export default function Login() {
       
       <div className="w-1/5 h-1/2  flex flex-col items-center gap-4 ">
        
-        <img src="./image/logo2.svg" alt="Logo Kiwify" className="w-40" />
+        <img src="./image/logo2.svg" alt="Logo Kiwify" className="w-60" />
 
         <div className="flex flex-col items-center">
           <h2 className="text-3xl font-extrabold mb:mb-0 mb-3">Entrar na sua conta</h2>
@@ -52,7 +52,7 @@ export default function Login() {
           <div className="flex gap-1">
 
             <h1>Ou</h1>
-            <Link href="/cadastro">
+            <Link href="/create-user">
               <p className="text-blue-700 font-semibold cursor-pointer">fazer cadastro</p>
             </Link>
 
@@ -67,7 +67,7 @@ export default function Login() {
               <label htmlFor="email" className="text-sm font-semibold">E-mail</label>
               <input 
                 onChange={ event => setEmail( event.target.value)} value={email}
-                type="email" name="email" className="w-80 border-2 p-2 rounded-md" />
+                type="email" name="email" className="w-80  border-2 p-2 rounded-md" />
               <p className={`text-red-500 ${textEmail}`}>Por favor preencher o campo E-mail</p>
             </div>
 
@@ -79,7 +79,7 @@ export default function Login() {
               <p className={`text-red-500 ${textPassword}`} >Por favor preencher o campo Password</p>
             </div>
 
-            <Link href="/redefinir">
+            <Link href="/forgot">
               <p className="text-right mt-5 mb-5 text-blue-700 font-semibold cursor-pointer">Esqueceu sua senha?</p>
             </Link>
           
