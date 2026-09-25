@@ -4,7 +4,6 @@ import { motion } from "motion/react";
 import Link from "next/link";
 import { useState } from "react";
 
-
 export default function Login() {
 
   const [email, setEmail] = useState("")
