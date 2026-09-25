@@ -12,7 +12,6 @@ export default function Login() {
   const [textEmail, setTextEmail] = useState("hidden")
   const [textPassword, setTextPassword] = useState("hidden")
 
-
   const [btnEnter, setBtnEnter] = useState("bg-blue-700")
   const [container, setContainer] = useState("bg-slate-100")
 
