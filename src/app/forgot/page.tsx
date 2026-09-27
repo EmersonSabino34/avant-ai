@@ -8,7 +8,6 @@ export default function ForgotBackup() {
   const [btnReset, setBtnReset] = useState("bg-blue-700")
   const [container, setContainer] = useState("bg-slate-100")
 
-
   function handleReset(e: any) {
     e.preventDefault()
 
